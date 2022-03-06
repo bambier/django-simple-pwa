@@ -1,0 +1,36 @@
+body {
+	direction: rtl;
+	text-align: justify;
+}
+
+div.wy-nav-side {
+	z-index: 0 !important;
+}
+
+.wy-nav-content {
+	max-width: 98%;
+	margin-bottom: 2%;
+	margin-top: 2%;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid;
+	border-radius: 10px;
+	box-shadow: 5px 10px 10px 2px #6d6969;
+	padding: 5%;
+}
+
+
+code, pre, span.pre, embed, code.docutils.literal.notranslate, p code.docutils.literal.notranslate {
+	direction: ltr !important;
+	text-align: left !important;
+	justify-content: left !important;
+	justify-items: left !important;
+	justify-self: left !important;
+}
+
+
+div.admonition.note ul.simple li {
+	margin: auto !important;
+	margin-right: 50px !important;
+}
+

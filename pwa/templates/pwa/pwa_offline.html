@@ -1,0 +1,45 @@
+{% load static pwa i18n %}
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+	<head>
+		{% pwa_meta_data %}
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>{% block title %}{% translate "Offline" %}{% endblock title %}</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		{% block extrastyles %}
+			<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+		{% endblock extrastyles %}
+
+		<meta name="robots" content="noindex nofollow" />
+
+
+	</head>
+	<body>	
+		<!--[if lt IE 7]>
+			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+		{% block main %}
+			<div class="container text-center p-5	">
+				<h1 class="alert alert-danger mt-5 p-5 mx-auto"> {% translate "Offline" %} </h1>
+				<p class="alert alert-warning mt-5 p-5 mx-auto"> {% translate "You are offline, please check your internet connections." %} <p>
+				<img class="img-fluid rounded mx-auto" src="{% static 'pwa/images/dino.gif' %}"  role="presentation" />
+			</div>
+		{% endblock main %}
+
+		{% block extrascripts %}
+			<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+		{% endblock extrascripts %}
+		
+		{% pwa_meta_script %}
+		
+
+	</body>
+
+</html>

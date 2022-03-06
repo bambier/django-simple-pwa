@@ -1,0 +1,26 @@
+
+{% load static %}
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+{% if THEME_COLOR %}
+    <meta name="theme-color" content="{{ THEME_COLOR }}" />
+    <meta name="apple-mobile-web-app-status-bar" content="{{ THEME_COLOR }}" />
+    <meta name="msapplication-TileColor" content={{ THEME_COLOR }}>
+{% endif %}
+{% if ICONS %}
+{% for icon in ICONS %}
+<link rel="apple-touch-icon" type="{{icon.type}}" sizes="{{icon.sizes}}" href="{{icon.src}}" />
+<link rel="icon" type="{{icon.type}}" sizes="{{icon.sizes}}" href="{{icon.src}}" />
+<meta name="msapplication-TileImage" sizes="{{icon.sizes}}" content="{{icon.src}}" />
+
+    {% endfor %}
+{% endif %}
+
+
+<link rel="manifest" href="{% url 'pwa:manifest.json' %}" />

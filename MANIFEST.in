@@ -1,0 +1,6 @@
+include LICENSE
+include README.rst
+recursive-include pwa/static *
+recursive-include pwa/templates *
+recursive-include pwa/templatetags *
+recursive-include docs *
