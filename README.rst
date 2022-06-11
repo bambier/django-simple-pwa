@@ -6,7 +6,7 @@ PWA
 PWA
 ###
 
-PWA is a simple Django app to develope and deploy a Progressive Web Application.
+PWA is a simple Django app to develop and deploy a Progressive Web Application.
 
 Detailed documentation is in the "docs" directory.
 
@@ -16,7 +16,7 @@ Quick start
 1. Add "pwa" to your INSTALLED_APPS setting like this::
 
     INSTALLED_APPS = [
-        ...
+        ...,
         'pwa',
     ]
 
