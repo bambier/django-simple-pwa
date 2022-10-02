@@ -241,9 +241,9 @@ ______________________________________
 .. note::
 	برای اطلاعات بیشتر می‌توانید به برخی مستندات آن که در لیست زیر فراهم کردیم بپردازید:
 
-	* `developer.mozilla.org <https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json>`_
-	* `developer.chrome.com <https://developer.chrome.com/docs/extensions/mv3/manifest/>`_
-	* `web.dev <https://web.dev/add-manifest/>`_
+	* `developer.mozilla.org <https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json>`__
+	* `developer.chrome.com <https://developer.chrome.com/docs/extensions/mv3/manifest/>`__
+	* `web.dev <https://web.dev/add-manifest/>`__
 
 
 
@@ -270,9 +270,9 @@ ______________________________________
 .. note::
 	برای اطلاعات بیشتر نسبت به نحوه‌ی کارکرد ``ServiceWorker.js`` می‌توانید از منابع زیر استفاده کنید.
 
-	* `developer.mozilla.org <https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API>`_
-	* `developers.google.com <https://developers.google.com/web/fundamentals/primers/service-workers>`_
-	* `docs.microsoft.com <https://docs.microsoft.com/en-us/microsoft-edge/progressive-web-apps-chromium/how-to/service-workers>`_
+	* `developer.mozilla.org <https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API>`__
+	* `developers.google.com <https://developers.google.com/web/fundamentals/primers/service-workers>`__
+	* `docs.microsoft.com <https://docs.microsoft.com/en-us/microsoft-edge/progressive-web-apps-chromium/how-to/service-workers>`__
 
 
 
