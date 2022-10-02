@@ -1,0 +1,193 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Nima Esmaeili
+# This file is distributed under the same license as the django-simple-pwa
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: django-simple-pwa \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-02 17:14+0330\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/customization.rst:4
+msgid "شخصی سازی"
+msgstr ""
+
+#: ../../source/customization.rst:7
+msgid "ساختار پیش فرض"
+msgstr ""
+
+#: ../../source/customization.rst:9
+msgid "DSP از یک ساختار پیشفرض برای تولید ``manifest.json`` استفاده می‌کند."
+msgstr ""
+
+#: ../../source/customization.rst:83
+msgid "تغییر پیش فرض"
+msgstr ""
+
+#: ../../source/customization.rst:84
+msgid ""
+"برای شخصی‌سازی فایل  ``manifest.json`` ``app.js`` ``sw.js`` کافیست متغیر "
+"``PWA_CONFIG`` ``PWA_SW`` ``PWA_APP`` را در فایل ``settings.py`` تعریف "
+"کنید."
+msgstr ""
+
+#: ../../source/customization.rst:102
+msgid "توجه داشته باشید که هیچ یک از دو آیکون شما دارای سایز برابر نباشند."
+msgstr ""
+
+#: ../../source/customization.rst:104
+msgid "برای مثال ساختار زیر باعث ایجاد خطا در برنامه میشود."
+msgstr ""
+
+#: ../../source/customization.rst:125
+msgid "این بدین معنی است که لزوما تغییر فرمت موجب جلوگیری از خطا نمی‌شود."
+msgstr ""
+
+#: ../../source/customization.rst:128
+msgid ""
+"همچنین ما توصیه نمی‌کنیم که ``PWA_APP`` و ``PWA_SW`` را دوباره تعریف کنید"
+" مگر آنکه بدانید واقعا چه می‌کنید."
+msgstr ""
+
+#: ../../source/customization.rst:131
+msgid ""
+"شما میتوانید آیکون‌های خود را در سایزهای مختلف با فرمت‌های دلخواه خود به "
+"صورت فوق تعریف کنید اما ما توصیه میکنیم از فرمت .ico استفاده کنید."
+msgstr ""
+
+#: ../../source/customization.rst:135
+msgid "تغییر ``manifest.json``"
+msgstr ""
+
+#: ../../source/customization.rst:137
+msgid "برای این کار ``PWA_CONFIG`` را به ``settings.py`` اضافه کنید."
+msgstr ""
+
+#: ../../source/customization.rst:210
+msgid "مقادیر قابل قبول ``manifest.json``"
+msgstr ""
+
+#: ../../source/customization.rst:211
+msgid ""
+"ما در اینجا برخی از مواردی که یک PWA میتواند در فایل ``manifest.json`` "
+"خود داشته باشد را به صورت پیشفرض برای اپ خود تعریف کرده‌ایم و در ادامه به"
+" تعریف مقادیری که میتوانید برای آن‌ها لحاظ کنید می‌پردازیم."
+msgstr ""
+
+#: ../../source/customization.rst:242
+msgid ""
+"برای اطلاعات بیشتر می‌توانید به برخی مستندات آن که در لیست زیر فراهم "
+"کردیم بپردازید:"
+msgstr ""
+
+#: ../../source/customization.rst:244
+msgid ""
+"`developer.mozilla.org <https://developer.mozilla.org/en-US/docs/Mozilla"
+"/Add-ons/WebExtensions/manifest.json>`_"
+msgstr ""
+
+#: ../../source/customization.rst:245
+msgid ""
+"`developer.chrome.com "
+"<https://developer.chrome.com/docs/extensions/mv3/manifest/>`_"
+msgstr ""
+
+#: ../../source/customization.rst:246
+msgid "`web.dev <https://web.dev/add-manifest/>`_"
+msgstr ""
+
+#: ../../source/customization.rst:251
+msgid "تغییر ``ServiceWorker.js``"
+msgstr ""
+
+#: ../../source/customization.rst:253
+msgid ""
+"برای این کار ``PWA_SW`` را در ``settings.py`` به یکی از دو روش زیر تعریف "
+"کنید."
+msgstr ""
+
+#: ../../source/customization.rst:271
+msgid ""
+"برای اطلاعات بیشتر نسبت به نحوه‌ی کارکرد ``ServiceWorker.js`` می‌توانید "
+"از منابع زیر استفاده کنید."
+msgstr ""
+
+#: ../../source/customization.rst:273
+msgid ""
+"`developer.mozilla.org <https://developer.mozilla.org/en-"
+"US/docs/Web/API/Service_Worker_API>`_"
+msgstr ""
+
+#: ../../source/customization.rst:274
+msgid ""
+"`developers.google.com "
+"<https://developers.google.com/web/fundamentals/primers/service-"
+"workers>`_"
+msgstr ""
+
+#: ../../source/customization.rst:275
+msgid ""
+"`docs.microsoft.com <https://docs.microsoft.com/en-us/microsoft-edge"
+"/progressive-web-apps-chromium/how-to/service-workers>`_"
+msgstr ""
+
+#: ../../source/customization.rst:282
+msgid "تغییر ``app.js``"
+msgstr ""
+
+#: ../../source/customization.rst:284
+msgid ""
+"برای این کار کافیست متغییر ``PWA_APP`` را در فایل ``settings.py`` تعریف "
+"کنید."
+msgstr ""
+
+#: ../../source/customization.rst:304
+msgid ""
+"همچنان توصیه نمی‌کنیم که ``PWA_APP`` و ``PWA_SW`` را دوباره تعریف کنید "
+"مگر آن که بدانید واقعا چه می‌کنید."
+msgstr ""
+
+#: ../../source/customization.rst:309
+msgid "تغییر محتوای صفحه‌ی آفلاین"
+msgstr ""
+
+#: ../../source/customization.rst:310
+msgid ""
+"ما از ساختاری مشابه ساختار جنگو برای تغییر صفحه‌ی آفلاین استفاده می‌کنیم."
+" به طوری که برای تغییر آن می‌بایست ابتدا در مسیر ``<templates-dir>/pwa/``"
+" یک فایل با نام ``offline.html`` ایجاد کنید و سپس آن را در مسیر "
+"``pwa/pwa_offline.html`` اکستند کنید."
+msgstr ""
+
+#: ../../source/customization.rst:326
+msgid ""
+"ما به طور پیش‌فرض از `بوت‌استرپ <https://getbootstrap.com/>`_ در قسمت "
+"آفلاین سایت استفاده می‌کنیم با این حال میتوانید به صورت زیر فایل‌های css "
+"و js خود را در آن بارگذاری کنید."
+msgstr ""
+
+#: ../../source/customization.rst:337
+msgid ""
+"توجه داشته باشید با اعمال قطعه کد بالا دیگر بوت استرپ در صفحه اعمال "
+"نخواهد شد."
+msgstr ""
+
+#: ../../source/customization.rst:339
+msgid ""
+"درضمن هرگونه تغییر در فایل آفلاین باید با تغییر کش در "
+"``ServiceWorker.js`` همراه باشد. بنابراین در صورتی که فایل آفلاین را "
+"تغییر دادید نیاز است که ``PWA_SW``  را نیز تعریف کنید هرچند ممکن است بدون"
+" این کار هم برنامه کار بکند ولی بهتر است که ``ServiceWorker.js`` باز "
+"نویسی شود."
+msgstr ""
+

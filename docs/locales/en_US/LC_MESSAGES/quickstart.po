@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Nima Esmaeili
+# This file is distributed under the same license as the django-simple-pwa
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: django-simple-pwa \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-02 17:14+0330\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/quickstart.rst:4
+msgid "شروع سریع"
+msgstr "Quick Start"
+
+#: ../../source/quickstart.rst:8
+msgid "نصب"
+msgstr "Installation"
+
+#: ../../source/quickstart.rst:9
+msgid "ابتدا DSP (django-simple-pwa) را با دستور زیر نصب کنید"
+msgstr "First, install DSP (django-simple-pwa) with the following command"
+
+#: ../../source/quickstart.rst:18
+msgid "حال DSP را به اپ‌های نصب شده اضافه کنید."
+msgstr "Now add DSP to installed apps."
+
+#: ../../source/quickstart.rst:33
+msgid "تنظیمات"
+msgstr "Settings"
+
+#: ../../source/quickstart.rst:34
+msgid ""
+"حال urlهای DSP را به ``urls.py`` که در کنار ``setting.py`` واقع است به "
+"شکل زیر اضافه کنید."
+msgstr "Now add the DSP urls to ``urls.py`` the  next one to the ``setting.py`` as shown below."
+
+#: ../../source/quickstart.rst:51
+msgid "مهم است که محل فایل‌های استاتیک را در تنظمیات خود معرفی کنید."
+msgstr "It is important to specify the location of static files in your settings."
+
+#: ../../source/quickstart.rst:64
+msgid "همچنین فرمان ``./manage.py collectstatic`` را اجرا کنید."
+msgstr "Also run the command ``../manage.py collectstatic``"
+
+#: ../../source/quickstart.rst:69
+msgid "اجرا در لوکال هاست"
+msgstr "Run on localhost"
+
+#: ../../source/quickstart.rst:71
+msgid ""
+"در صورتی که پروژه‌ را در لوکال هاست خود اجرا می‌کنید، مطمئن شوید که "
+"فایل‌های استاتیک به درستی لود شده‌اند."
+msgstr "If you are running the project on your localhost, make sure that the static files are loaded correctly."
+
+#: ../../source/quickstart.rst:88
+msgid "لود کردن فایل‌های ضروری"
+msgstr "Loading the necessary files"
+
+#: ../../source/quickstart.rst:90
+msgid ""
+"حال در فایل html اصلی خود که عموما به نام ``index.html`` شناخته می‌شود، "
+"متا دیتا‌های اپ را لود کنید."
+msgstr "Now in your main html file commonly  known as ``index.html``, load the meta data of app."
+
+#: ../../source/quickstart.rst:108
+msgid ""
+"همچین می‌توانید این تنظیمات را در تمام صفحات اعمال کنید تا از طریق همه "
+"آن‌ها pwa در دسترس باشد."
+msgstr "You can also apply this setting to all pages so that pwa is available through all of them."
+
+#: ../../source/quickstart.rst:112
+msgid ""
+"اگر همه مراحل را به درستی انجام داده باشید میتوانید اکنون سایت خود را بر "
+"روی دستگاه خود به صورت pwa نصب کنید."
+msgstr "If you have done all the steps correctly, you can now install your site on your device as pwa."
+
