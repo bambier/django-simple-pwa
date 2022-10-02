@@ -20,23 +20,23 @@ msgstr ""
 
 #: ../../source/index.rst:18
 msgid "لیست"
-msgstr ""
+msgstr "List"
 
 #: ../../source/index.rst:3
 msgid "django-simple-pwa"
-msgstr ""
+msgstr "django-simple-pwa"
 
 #: ../../source/index.rst:6
 msgid "این اپ یک راهکار سریع برای ایجاد و کنترل اپ PWA برای وب سایت شماست."
-msgstr ""
+msgstr "This app is a quick solution to create and control a PWA app for your website."
 
 #: ../../source/index.rst:8
 msgid "لطفا ما را برای ترجمه‌ی مستندات به زبان محلی خود یاری کنید."
-msgstr ""
+msgstr "Please help us to translate the documents into your local language."
 
 #: ../../source/index.rst:11
 msgid "فهرست محتوا"
-msgstr ""
+msgstr "Table of Contents"
 
 #: ../../source/index.rst:13
 msgid ":ref:`quickstart`"

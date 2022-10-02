@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: django-simple-pwa \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-02 17:14+0330\n"
+"POT-Creation-Date: 2022-10-02 17:34+0330\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../../source/errors.rst:5
 msgid "خطا و ارورها"
-msgstr ""
+msgstr "Errors and bugs"
 
 #: ../../source/errors.rst:8
 msgid ""
@@ -28,7 +28,22 @@ msgid ""
 " کنید. همچنین مطمئن شوید هیچ یک از دو آیکون شما دارای سایز برابر "
 "نمی‌باشند حتی اگر فرمت متفاوتی دارند."
 msgstr ""
+"If you encounter the following error, address your icons correctly. Also,"
+" make sure that none of your two icons are the same size, even if they "
+"are in different formats."
 
 msgid "error.png"
 msgstr ""
+
+#: ../../source/errors.rst:18
+msgid "عدم نمایش دکمه نصب"
+msgstr ""
+
+#: ../../source/errors.rst:21
+msgid ""
+"در صورتی که دکمه نصب نمایش داده نشد، مطمئن شوید که سرور بر روی لوکال هاست"
+" و یا HTTPS اجرا میشود. اجرای سرور بر روی شبکه NAT نیازمند دارا بودن "
+"گواهی SSL معتبر است. این موضوع به django-simple-pwa مربوط نیست و به "
+"ساختار PWA مربوط می‌شود."
+msgstr "If the installation button is not displayed, make sure the server runs on the locals or the HTTPS. Running the server on the NAT network requires a valid SSL certificate. This is not related to django-simple-pwa and is related to the PWA structure."
 

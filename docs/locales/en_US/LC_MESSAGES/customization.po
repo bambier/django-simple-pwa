@@ -20,75 +20,75 @@ msgstr ""
 
 #: ../../source/customization.rst:4
 msgid "شخصی سازی"
-msgstr ""
+msgstr "Customization"
 
 #: ../../source/customization.rst:7
 msgid "ساختار پیش فرض"
-msgstr ""
+msgstr "Default structure"
 
 #: ../../source/customization.rst:9
 msgid "DSP از یک ساختار پیشفرض برای تولید ``manifest.json`` استفاده می‌کند."
-msgstr ""
+msgstr "DSP uses a default structure for generation ``manifest.json``."
 
 #: ../../source/customization.rst:83
 msgid "تغییر پیش فرض"
-msgstr ""
+msgstr "Change the defaults"
 
 #: ../../source/customization.rst:84
 msgid ""
 "برای شخصی‌سازی فایل  ``manifest.json`` ``app.js`` ``sw.js`` کافیست متغیر "
 "``PWA_CONFIG`` ``PWA_SW`` ``PWA_APP`` را در فایل ``settings.py`` تعریف "
 "کنید."
-msgstr ""
+msgstr "To customize the ``manifest.json`` ``app.js`` ``sw.js`` files, just define the ``PWA_CONFIG`` ``PWA_SW`` ``PWA_APP`` variables in the ``settings.py`` file."
 
 #: ../../source/customization.rst:102
 msgid "توجه داشته باشید که هیچ یک از دو آیکون شما دارای سایز برابر نباشند."
-msgstr ""
+msgstr "Note that none of your two icons have the same size."
 
 #: ../../source/customization.rst:104
 msgid "برای مثال ساختار زیر باعث ایجاد خطا در برنامه میشود."
-msgstr ""
+msgstr "For example, the following structure causes an error in the program."
 
 #: ../../source/customization.rst:125
 msgid "این بدین معنی است که لزوما تغییر فرمت موجب جلوگیری از خطا نمی‌شود."
-msgstr ""
+msgstr "This means that changing the format does not necessarily prevent the error."
 
 #: ../../source/customization.rst:128
 msgid ""
 "همچنین ما توصیه نمی‌کنیم که ``PWA_APP`` و ``PWA_SW`` را دوباره تعریف کنید"
 " مگر آنکه بدانید واقعا چه می‌کنید."
-msgstr ""
+msgstr "Also, we don't recommend redefining ``PWA_APPand`` ``PWA_SW`` unless you know what you're actually doing."
 
 #: ../../source/customization.rst:131
 msgid ""
 "شما میتوانید آیکون‌های خود را در سایزهای مختلف با فرمت‌های دلخواه خود به "
 "صورت فوق تعریف کنید اما ما توصیه میکنیم از فرمت .ico استفاده کنید."
-msgstr ""
+msgstr "You can define your icons in different sizes with your desired formats as above, but we recommend using the .ico format."
 
 #: ../../source/customization.rst:135
 msgid "تغییر ``manifest.json``"
-msgstr ""
+msgstr "change ``manifest.json``"
 
 #: ../../source/customization.rst:137
 msgid "برای این کار ``PWA_CONFIG`` را به ``settings.py`` اضافه کنید."
-msgstr ""
+msgstr "For this, add ``PWA_CONFIG`` to ypur ``settings.py``"
 
 #: ../../source/customization.rst:210
 msgid "مقادیر قابل قبول ``manifest.json``"
-msgstr ""
+msgstr "acceptable values ``manifest.json``"
 
 #: ../../source/customization.rst:211
 msgid ""
 "ما در اینجا برخی از مواردی که یک PWA میتواند در فایل ``manifest.json`` "
 "خود داشته باشد را به صورت پیشفرض برای اپ خود تعریف کرده‌ایم و در ادامه به"
 " تعریف مقادیری که میتوانید برای آن‌ها لحاظ کنید می‌پردازیم."
-msgstr ""
+msgstr "Here, we have defined some of the things that a PWA can have in its ``manifest.json`` file by default, and we will continue to describe the values that you can put in for them."
 
 #: ../../source/customization.rst:242
 msgid ""
 "برای اطلاعات بیشتر می‌توانید به برخی مستندات آن که در لیست زیر فراهم "
 "کردیم بپردازید:"
-msgstr ""
+msgstr "For more information, you can refer to some of its documentation that we have provided in the list below:"
 
 #: ../../source/customization.rst:244
 msgid ""
@@ -108,19 +108,19 @@ msgstr ""
 
 #: ../../source/customization.rst:251
 msgid "تغییر ``ServiceWorker.js``"
-msgstr ""
+msgstr "change ``ServiceWorker.js``"
 
 #: ../../source/customization.rst:253
 msgid ""
 "برای این کار ``PWA_SW`` را در ``settings.py`` به یکی از دو روش زیر تعریف "
 "کنید."
-msgstr ""
+msgstr "To do this , define ``PWA_SW`` in ``settings.py`` one of the following two ways."
 
 #: ../../source/customization.rst:271
 msgid ""
 "برای اطلاعات بیشتر نسبت به نحوه‌ی کارکرد ``ServiceWorker.js`` می‌توانید "
 "از منابع زیر استفاده کنید."
-msgstr ""
+msgstr "For more information on how it works ``ServiceWorker.js``, you can use the following sources."
 
 #: ../../source/customization.rst:273
 msgid ""
@@ -143,23 +143,23 @@ msgstr ""
 
 #: ../../source/customization.rst:282
 msgid "تغییر ``app.js``"
-msgstr ""
+msgstr "change ``app.js``"
 
 #: ../../source/customization.rst:284
 msgid ""
 "برای این کار کافیست متغییر ``PWA_APP`` را در فایل ``settings.py`` تعریف "
 "کنید."
-msgstr ""
+msgstr "For this, just define the variable ``PWA_APP`` in the file ``settings.py``."
 
 #: ../../source/customization.rst:304
 msgid ""
 "همچنان توصیه نمی‌کنیم که ``PWA_APP`` و ``PWA_SW`` را دوباره تعریف کنید "
 "مگر آن که بدانید واقعا چه می‌کنید."
-msgstr ""
+msgstr "We still don't recommend redefining ``PWA_SW`` unless you know what you're really doing."
 
 #: ../../source/customization.rst:309
 msgid "تغییر محتوای صفحه‌ی آفلاین"
-msgstr ""
+msgstr "Change offline page content"
 
 #: ../../source/customization.rst:310
 msgid ""
@@ -167,20 +167,20 @@ msgid ""
 " به طوری که برای تغییر آن می‌بایست ابتدا در مسیر ``<templates-dir>/pwa/``"
 " یک فایل با نام ``offline.html`` ایجاد کنید و سپس آن را در مسیر "
 "``pwa/pwa_offline.html`` اکستند کنید."
-msgstr ""
+msgstr "We use a structure similar to Django's structure to change the offline page. So, to change it, you must first create ``offline.html`` file in ``<templates-dir>/pwa/`` path and then extend it in to the path ``pwa/pwa_offline.html``."
 
 #: ../../source/customization.rst:326
 msgid ""
 "ما به طور پیش‌فرض از `بوت‌استرپ <https://getbootstrap.com/>`_ در قسمت "
 "آفلاین سایت استفاده می‌کنیم با این حال میتوانید به صورت زیر فایل‌های css "
 "و js خود را در آن بارگذاری کنید."
-msgstr ""
+msgstr "By default, we use `bootstrap <https://getbootstrap.com/>`_ in the offline part of the site, however, you can upload your css and js files in it as below."
 
 #: ../../source/customization.rst:337
 msgid ""
 "توجه داشته باشید با اعمال قطعه کد بالا دیگر بوت استرپ در صفحه اعمال "
 "نخواهد شد."
-msgstr ""
+msgstr "Note that by applying the code above, Bootstrap will no longer be applied to the page."
 
 #: ../../source/customization.rst:339
 msgid ""
@@ -189,5 +189,5 @@ msgid ""
 "تغییر دادید نیاز است که ``PWA_SW``  را نیز تعریف کنید هرچند ممکن است بدون"
 " این کار هم برنامه کار بکند ولی بهتر است که ``ServiceWorker.js`` باز "
 "نویسی شود."
-msgstr ""
+msgstr "In addition, any change in the offline file must be accompanied by a changing cache in ``ServiceWorker.js``. Therefore, if you changed the offline file, you need to define ``PWA_SW``, although the program may work without this, but it is better to rewrite ``ServiceWorker.js``."
 
