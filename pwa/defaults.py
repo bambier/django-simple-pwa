@@ -55,7 +55,7 @@ def get_pwa_config():
 		],
 		"lang": "en",
 		"dir": "ltr",
-		"description": _("Progressive Web app powerd by Django"),
+		"description": _("Progressive Web app powered by Django"),
 		"version": "1.",
 		"manifest_version": "1.0",
 		"permissions": [
@@ -151,7 +151,7 @@ if ("serviceWorker" in navigator) {
 	""" % (
 		_("service worker registered!"),
 		_("Your browser support service worker but service worker not registered."),
-		_("Your browser Dosn't Support serviceWorker, so you can'n install PWA."),
+		_("Your browser Doesn't Support serviceWorker, so you can'n install PWA."),
 		)
 	try:
 		if settings.PWA_APP and settings.PWA_APP != {}:
