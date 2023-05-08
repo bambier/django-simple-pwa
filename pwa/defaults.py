@@ -149,9 +149,9 @@ if ("serviceWorker" in navigator) {
 	console.log(`%s`);
 };
 	""" % (
-		_("service worker registered!"),
-		_("Your browser support service worker but service worker not registered."),
-		_("Your browser Doesn't Support serviceWorker, so you can'n install PWA."),
+		_("Service worker registered!"),
+		_("Your browser supports serviceWorker, but the service worker is not registered."),
+		_("Your browser doesn't support serviceWorker, so you can't install the PWA."),
 		)
 	try:
 		if settings.PWA_APP and settings.PWA_APP != {}:
