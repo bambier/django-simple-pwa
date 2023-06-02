@@ -38,7 +38,7 @@ Quick start
 
 
 
-github: https://github.com/nimaes80/django-simple-pwa
+github: https://github.com/bambier/django-simple-pwa
 
 
 documents: https://django-simple-pwa.readthedocs.io/fa/latest/
