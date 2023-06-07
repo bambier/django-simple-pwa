@@ -5,8 +5,7 @@
 
 ### Custom ###
 env/
-API
-config/
+core/
 manage.py
 
 ### Database ###
