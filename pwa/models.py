@@ -71,9 +71,9 @@ class DirectionChoices(models.TextChoices):
 
 
 class ManifestVersion(models.IntegerChoices):
-    V1 = 1, _("Vertion 1")
-    V2 = 2, _("Vertion 2")
-    V3 = 3, _("Vertion 3")
+    V1 = 1, _("Version 1")
+    V2 = 2, _("Version 2")
+    V3 = 3, _("Version 3")
 
 
 class Permissions(models.Model):
