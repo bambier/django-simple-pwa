@@ -1,6 +1,8 @@
 =====
 PWA
 =====
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/django-simple-pwa)
+[![PyPI Version](https://img.shields.io/pypi/v/PySDL3.svg)](https://pypi.python.org/pypi/django-simple-pwa)
 
 
 PWA
