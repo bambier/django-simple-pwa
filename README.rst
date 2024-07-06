@@ -1,8 +1,13 @@
 =====
 PWA
 =====
+
+
+![PyPI - Versions from Framework Classifiers](https://img.shields.io/pypi/frameworkversions/django/django-simple-pwa)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/django-simple-pwa)
-[![PyPI Version](https://img.shields.io/pypi/v/django-simple-pwa.svg)
+![PyPI - Implementation](https://img.shields.io/pypi/implementation/django-simple-pwa)
+![PyPI - Wheel](https://img.shields.io/pypi/wheel/django-simple-pwa)
+
 
 
 PWA
